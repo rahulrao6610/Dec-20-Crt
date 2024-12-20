@@ -1,0 +1,138 @@
+.accDlgSf {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#fbthankyou_button {
+    text-align: center
+}
+
+#adult_button_submit,#adult_button_cancel {
+    width: 40%
+}
+
+#fbdialogcl {
+    cursor: pointer;
+    background: url() -127px -17px no-repeat;
+    float: right;
+    height: 9px;
+    width: 9px;
+    top: 10px;
+    right: 10px;
+    position: relative
+}
+
+.b_dark #fbdialogcl {
+    background: url(C:\CRT/Training\Dec-20\StpetersCollege\my-app\src\assets\img) -117px -17px no-repeat
+}
+
+#fbdialogcl:hover {
+    background: url(C:\CRT/Training\Dec-20\StpetersCollege\my-app\src\assets\img) -107px -17px no-repeat
+}
+
+@media all and (min-width: 421px) {
+    #fbdialog {
+        left:33%
+    }
+
+    .contents {
+        margin: 0 20px
+    }
+
+    .flagIcon {
+        margin-left: 20px
+    }
+}
+
+@media all and (max-width: 420px) {
+    #fbdialog {
+        left:3%
+    }
+
+    .contents {
+        margin: 0 10px
+    }
+
+    .flagIcon {
+        margin-left: 10px;
+        margin-right: 10px
+    }
+}
+
+@media only screen and (max-height: 480px) {
+    #fbdialog {
+        top:3%;
+        line-height: .8em
+    }
+
+    .flagIcon {
+        width: 8px;
+        height: 8px
+    }
+
+    .message {
+        padding: 3px 0 4px 0
+    }
+
+    #fbdialog_thumb_container>img {
+        max-height: 140px;
+        max-width: 140px
+    }
+
+    .fbdialog .title {
+        font-size: 8px;
+        padding-top: 1px
+    }
+
+    #fbdialog .contents {
+        font-size: 6px
+    }
+
+    #adult_button_submit,#adult_button_cancel {
+        width: 30%
+    }
+
+    #fbdialog .buttonLink {
+        font-size: 6px;
+        padding: 2px;
+        margin-left: 3px
+    }
+
+    #fbdialog_container {
+        padding: 3px 0 4px 0
+    }
+
+    #fbdialog_errormessage,#checkbox_region,#fbdialog_buttons {
+        margin-top: 3px
+    }
+
+    #checkbox_region input {
+        top: 1px
+    }
+
+    #checkbox_region label {
+        position: relative;
+        bottom: 3px
+    }
+
+    #checkbox_region>div {
+        padding: 3px 0
+    }
+
+    #fbdialogcl {
+        top: 5px;
+        right: 5px
+    }
+}
+
+@media only screen and (max-height: 250px) {
+    #fbdialog_thumb_container>img {
+        max-height:85px;
+        max-width: 85px
+    }
+}
